@@ -1,0 +1,17 @@
+@import "commmon";
+@media only screen and (max-width: 768px){
+    .containerHeader{
+        @include commonContainer();
+    }
+    .onlyHeader{
+        @include commmonsBorderBox(9px, gold, 90%, 21%);
+}
+}
+@media only screen and (min-width: 768px){
+    .containerHeader{
+        @include commonContainer();
+    }
+    .onlyHeader{
+        @include commmonsBorderBox(9px, gold, 90%, 15%);
+    }
+}

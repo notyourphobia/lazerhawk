@@ -1,0 +1,17 @@
+@import "commmon";
+@media only screen and (max-width: 768px){
+    .containerSection{
+        @include commonContainer();
+    }
+    .firstSection, .secondSection{
+        @include commmonsBorderBox(9px, purple, 42%, 21%);
+}
+}
+@media only screen and (min-width: 768px){
+    .containerSection{
+        @include commonContainer();
+    }
+    .firstSection, .secondSection{
+        @include commmonsBorderBox(9px, purple, 44%, 15%);
+    }
+}

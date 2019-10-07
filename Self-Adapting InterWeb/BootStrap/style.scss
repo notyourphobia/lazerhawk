@@ -1,0 +1,20 @@
+@import "scss/commons";
+.col-sm-6{
+    @include commmonsBorderBox(9,gold,360,60);
+    vertical-align: middle;
+}
+.col-xs-6{
+    @include commmonsBorderBox(9,gold,210 ,60);
+}
+.col-sm-3{
+    @include commmonsBorderBox(15,purple,180,60);
+}
+.col-xs-3{
+    @include commmonsBorderBox(9,purple,105,60);
+}
+.col-sm-2{
+    @include commmonsBorderBox(15,blue,120,60);
+}
+.col-xs-2{
+    @include commmonsBorderBox(9,blue,70,60);
+}

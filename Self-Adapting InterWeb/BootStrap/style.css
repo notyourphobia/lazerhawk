@@ -1,0 +1,47 @@
+.container {
+  text-align: center;
+}
+
+.row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.col-sm-6 {
+  border: 9px dotted gold;
+  height: 60px;
+  width: 360px;
+  vertical-align: middle;
+}
+
+.col-xs-6 {
+  border: 9px dotted gold;
+  height: 60px;
+  width: 210px;
+}
+
+.col-sm-3 {
+  border: 15px dotted purple;
+  height: 60px;
+  width: 180px;
+}
+
+.col-xs-3 {
+  border: 9px dotted purple;
+  height: 60px;
+  width: 105px;
+}
+
+.col-sm-2 {
+  border: 15px dotted blue;
+  height: 60px;
+  width: 120px;
+}
+
+.col-xs-2 {
+  border: 9px dotted blue;
+  height: 60px;
+  width: 70px;
+}
+/*# sourceMappingURL=style.css.map */

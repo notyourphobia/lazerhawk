@@ -1,0 +1,13 @@
+@import "scss/commons";
+.flexContainerHeader, .flexContainerSection, .flexContainerFooter{
+    @include flexContaiener;
+}
+.headerSection{
+    @include commmonsBorderBox(9, gold, 300, 25);
+}
+.sectionSectionOne, .sectionSectionTwo{
+ @include commmonsBorderBox(9, purple, 140,25);
+}
+.sectionFooterOne, .sectionFooterTwo, .sectionFooterThree{
+    @include commmonsBorderBox(9, blue, 87,25);
+}

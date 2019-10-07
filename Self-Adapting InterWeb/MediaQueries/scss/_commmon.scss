@@ -1,0 +1,15 @@
+@mixin commmonsBorderBox($borderSize, $borderColor,$width,$height) {
+    display: inline-block;
+    border: $borderSize dotted $borderColor;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    width: $width;
+    height: $height;
+}
+@mixin commonContainer() {
+    display: block;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}

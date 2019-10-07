@@ -1,0 +1,12 @@
+@mixin commmonsBorderBox($borderSize, $borderColor,$width,$height) {
+    border: $borderSize + px dotted $borderColor;
+    width: $width + px;
+    height: $height + px;
+}
+@mixin flexContaiener() {
+    display: flex;
+    margin: auto;
+    vertical-align: middle;
+    text-align: center;
+    justify-content: center
+}

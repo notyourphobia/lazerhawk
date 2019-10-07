@@ -1,0 +1,30 @@
+.flexContainerHeader, .flexContainerSection, .flexContainerFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.headerSection {
+  border: 9px dotted gold;
+  width: 300px;
+  height: 25px;
+}
+
+.sectionSectionOne, .sectionSectionTwo {
+  border: 9px dotted purple;
+  width: 140px;
+  height: 25px;
+}
+
+.sectionFooterOne, .sectionFooterTwo, .sectionFooterThree {
+  border: 9px dotted blue;
+  width: 87px;
+  height: 25px;
+}
+/*# sourceMappingURL=style.css.map */
